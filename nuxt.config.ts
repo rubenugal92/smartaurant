@@ -49,7 +49,7 @@ nitro:{
     routes: ['/','/about','/contact','/pricing','/products'],
     ignore: ['/dashboard', '/dashboard/**'],
     //Habilitar el crawling para descubrir nuevas rutas automáticamente
-    crawlLinks: true
+    crawlLinks: false
   }
 }
 
